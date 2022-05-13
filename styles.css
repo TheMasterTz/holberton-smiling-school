@@ -11,6 +11,35 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+nav .nav-link {
+    display: block;
+    padding: 0.3rem 0.1rem !important;
+    margin: 0 1rem !important;
+    position: relative;
+    transition: .3s ease-in-out all;
+}
+
+nav .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 0;
+    height: 0.2rem;
+    border-radius: 10px;
+    transition: .3s cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+nav .nav-item:hover .nav-link::before {
+    width: 100%;
+}
+
+nav .nav-link:hover {
+    color: #C271FF !important;
 }
 
 .pricing-header {
