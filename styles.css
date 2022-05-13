@@ -46,6 +46,10 @@ nav .nav-link:hover {
     background-image: url(images/pic_2.jpg);
 }
 
+.courses-header {
+    background-image: url(images/pic_3.jpg);
+}
+
 .text-responsive {
     font-size: 10vw;
 }
@@ -55,7 +59,7 @@ nav .nav-link:hover {
 }
 
 .gray-bg {
-    background-color: #979797;
+    background-color: #ffffff5d;
 }
 
 .purple-bg {
@@ -108,6 +112,8 @@ nav .nav-link:hover {
 }
 
 .holberton_school-icon-check {
+    display: flex;
+    align-items: center;
     font-size: 30px;
     color: #82d24f;
 }
@@ -187,4 +193,16 @@ nav .nav-link:hover {
     padding-top: 10px;
     padding-left: 10px;
     border-top-style: rounded;
+}
+
+.dropdown-item {
+    transition: .1s ease-in-out all;
+    -webkit-transition: .1s ease-in-out all;
+    -moz-transition: .1s ease-in-out all;
+    -ms-transition: .1s ease-in-out all;
+    -o-transition: .1s ease-in-out all;
+}
+
+.dropdown-item:hover {
+    color: #c271ff;
 }
